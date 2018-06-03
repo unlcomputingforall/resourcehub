@@ -9,6 +9,7 @@ let search = () => {
        var index = para[0].innerText.toLowerCase().indexOf(pattern);
        if (index != -1) {
           targetId = divs[i].parentNode.id;
+          console.log(targetId);
           document.getElementById(targetId).scrollIntoView();
           break;
        }
