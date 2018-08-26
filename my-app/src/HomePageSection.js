@@ -21,46 +21,24 @@ class HomePageSection extends Component {
                         image={ctci} altText="Cracking the Coding Interview Photo" title="Cracking the Coding Interview" description="The most famous and widely used resource for preparing for programming interviews. Many companies get their interview questions directly from this book!"
                         moreInfoLink="https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=asap_bc?ie=UTF8"
                         />
-                        <article>
-                            <a href="https://www.inhersight.com/" class="image"><img src={inhersight} alt="" /></a>
-                            <h3>InHerSight</h3>
-                            <p>A website similar to Glassdoor to help women find jobs with fair benefits, compensation, and good culture.</p>
-                            <ul class="actions">
-                                <li><a href="https://www.inhersight.com/" class="button">More</a></li>
-                            </ul>
-                        </article>
-                        <article>
-                            <a href="https://diversity.unl.edu/" class="image"><img src={diversityunl} alt="diversity at UNL" /></a>
-                            <h3>Diversity at UNL</h3>
-                            <p>Learn more about what the University of Nebraska-Lincoln is doing to promote diversity on campus and find resources and statistics.</p>
-                            <ul class="actions">
-                                <li><a href="https://diversity.unl.edu/" class="button">More</a></li>
-                            </ul>
-                        </article>
-                        <article>
-                            <a href="https://www.amazon.com/dp/B00ISYMUR6/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1" class="image"><img src={ctpmi} alt="Amazon link to Cracking the PM Interview" /></a>
-                            <h3>Cracking the PM Interview</h3>
-                            <p>Interested in becoming a Product/Program/Project Manager in your tech career? Check out the PM companion to Cracking the Coding Interview, featuring the best tips and sample questions for PM interviews.</p>
-                            <ul class="actions">
-                                <li><a href="https://www.amazon.com/dp/B00ISYMUR6/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1" class="button">More</a></li>
-                            </ul>
-                        </article>
-                        <article>
-                            <a href="https://www.hackerrank.com/" class="image"><img src={hackerrank} alt="" /></a>
-                            <h3>HackerRank</h3>
-                            <p>This is a website to practice your interviewing skills by participating in coding challenges and competitions.</p>
-                            <ul class="actions">
-                                <li><a href="https://www.hackerrank.com/" class="button">More</a></li>
-                            </ul>
-                        </article>
-                        <article>
-                            <a href="https://projecteuler.net/" class="image"><img src={projecteuler} alt="Project Euler" /></a>
-                            <h3>Project Euler</h3>
-                            <p>A website to practice solving math problems and logic puzzles using programming.</p>
-                            <ul class="actions">
-                                <li><a href="https://projecteuler.net/" class="button">More</a></li>
-                            </ul>
-                        </article>
+                        <ResourceCard link="https://www.inhersight.com/" image={inhersight} altText="" 
+                        title="InHerSight" description="A website similar to Glassdoor to help women find jobs with fair benefits, compensation, and good culture." 
+                        moreInfoLink="https://www.inhersight.com/"/>
+
+                        <ResourceCard link="https://diversity.unl.edu/" image={diversityunl} altText="diversity at UNL" 
+                        title="Diversity at UNL" description="Learn more about what the University of Nebraska-Lincoln is doing to promote diversity on campus and find resources and statistics." 
+                        moreInfoLink="https://diversity.unl.edu/"/>
+
+                        <ResourceCard link="https://www.amazon.com/dp/B00ISYMUR6/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1" image={ctpmi} altText="Amazon link to Cracking the PM Interview" 
+                        title="Cracking the PM Interview" description="Interested in becoming a Product/Program/Project Manager in your tech career? Check out the PM companion to Cracking the Coding Interview, featuring the best tips and sample questions for PM interviews." 
+                        moreInfoLink="https://www.amazon.com/dp/B00ISYMUR6/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1"/>
+
+                        <ResourceCard link="https://www.hackerrank.com/" image={hackerrank} title="HackerRank" description="This is a website to practice your interviewing skills by participating in coding challenges and competitions." 
+                        moreInfoLink="https://www.hackerrank.com/"/>
+
+                        <ResourceCard link="https://projecteuler.net/" image={projecteuler} title="Project Euler" description="This is a website to practice your interviewing skills with math problems." 
+                        moreInfoLink="https://projecteuler.net/"/>
+                        
                     </div>
                 </section>
             </div>
